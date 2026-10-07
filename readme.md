@@ -2,7 +2,7 @@
 
 ## Autor
 
-**Ing. Francisco Higuera**
+**Ing. Francisco Javier Higuera Gonzalez**
 
 ---
 
