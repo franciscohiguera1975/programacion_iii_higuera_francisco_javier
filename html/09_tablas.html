@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+
+<body>
+    <h1>Tablas en Hmtl 5</h1>
+    <table id="personajes_star_wars" alt="Personajes Star Wars" border="1">
+        <caption>Universo Star Wars</caption>
+        <tr>
+            <th colspan="3">Personajes</th>
+        </tr>
+        <tr>
+            <th>Personaje</th>
+            <th>Planeta</th>
+            <th>Afiliación</th>
+        </tr>
+        <tr>
+            <td>Luke Skywalker</td>
+            <td rowspan="2">Tatooine</td>
+            <td>jedi</td>
+        </tr>
+        <tr>
+            <td>Darth Vader</td>
+            <td>Sith</td>
+        </tr>
+        <tr>
+            <td>Yoda</td>
+            <td>Desconocido</td>
+            <td>Jedi</td>
+        </tr>
+    </table>
+    <br>
+    <table id="misiones" alt="misiones Star Wars" border="1">
+        <caption>Misiones Star Wars</caption>
+        <thead>
+            <tr>
+                <th>Cabellero Jedi</th>
+                <th>Tipo de Misión</th>
+                <th>Droide</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Luck</td>
+                <td>Exploratoria</td>
+                <td>R2D2</td>
+            </tr>
+            <tr>
+                <td>Anakin</td>
+                <td>Rescate</td>
+                <td>C3PO</td>
+            </tr>
+            <tr>
+                <td>Obiwan</td>
+                <td>Rescate</td>
+                <td>BB8</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">
+                    Total misiones
+                </th>
+                <th> 3</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+</body>
+
+</html>
